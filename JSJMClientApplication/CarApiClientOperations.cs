@@ -25,8 +25,8 @@ public class CarApiClientOperations
             foreach (var car in cars)
             { 
                 Console.WriteLine($"ID: {car.Id}");
-                Console.WriteLine($"Car Brand: {car.CarBrand}");
                 Console.WriteLine($"Car Model: {car.CarModel}");
+                Console.WriteLine($"Car Brand: {car.CarBrand}");
                 Console.WriteLine($"Year Model: {car.YearModel}");
                 Console.WriteLine($"Mileage: {car.Mileage}");
                 Console.WriteLine($"Description: {car.Description}");
