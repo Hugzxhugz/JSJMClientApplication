@@ -36,12 +36,26 @@ public class UpdateCarBuilder
     public void UpdateCarTransmissionType(Car car)
     {
         int transmissionInput = _getInputClass.GetInt("Please enter the updated transmission type (0 for manual, 1 for automatic):");
+
+        while (transmissionInput < 0 || transmissionInput > 1)
+        {
+            Console.WriteLine("Invalid input. Please enter a value between 0 and 1.");
+            transmissionInput = _getInputClass.GetInt("Please enter the updated transmission type (0 for manual, 1 for automatic):");
+        }
+
         car.Transmission = (TransmissionType)transmissionInput;
     }
         
     public void UpdateCarFuelType(Car car)
     {
         int fuelInput = _getInputClass.GetInt("Please enter the updated fuel type (0 for Gas, 1 for Diesel, 2 for Hybrid, 3 for Electric):");
+
+        while (fuelInput < 0 || fuelInput > 3)
+        {
+            Console.WriteLine("Invalid input. Please enter a value between 0 and 3.");
+            fuelInput = _getInputClass.GetInt("Please enter the updated fuel type (0 for Gas, 1 for Diesel, 2 for Hybrid, 3 for Electric):");
+        }
+
         car.Fuel = (FuelType)fuelInput;
     }
         
