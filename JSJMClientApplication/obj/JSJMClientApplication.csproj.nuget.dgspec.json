@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\james\\RiderProjects\\JSJMClientApplication\\JSJMClientApplication\\JSJMClientApplication.csproj": {}
+    "C:\\Users\\Jens\\Documents\\GitHub\\JSJMClientApplication\\JSJMClientApplication\\JSJMClientApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\james\\RiderProjects\\JSJMClientApplication\\JSJMClientApplication\\JSJMClientApplication.csproj": {
+    "C:\\Users\\Jens\\Documents\\GitHub\\JSJMClientApplication\\JSJMClientApplication\\JSJMClientApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\james\\RiderProjects\\JSJMClientApplication\\JSJMClientApplication\\JSJMClientApplication.csproj",
+        "projectUniqueName": "C:\\Users\\Jens\\Documents\\GitHub\\JSJMClientApplication\\JSJMClientApplication\\JSJMClientApplication.csproj",
         "projectName": "JSJMClientApplication",
-        "projectPath": "C:\\Users\\james\\RiderProjects\\JSJMClientApplication\\JSJMClientApplication\\JSJMClientApplication.csproj",
-        "packagesPath": "C:\\Users\\james\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\james\\RiderProjects\\JSJMClientApplication\\JSJMClientApplication\\obj\\",
+        "projectPath": "C:\\Users\\Jens\\Documents\\GitHub\\JSJMClientApplication\\JSJMClientApplication\\JSJMClientApplication.csproj",
+        "packagesPath": "C:\\Users\\Jens\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jens\\Documents\\GitHub\\JSJMClientApplication\\JSJMClientApplication\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\james\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jens\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -25,9 +25,9 @@ public class CarApiClientOperations
             foreach (var car in cars)
             { 
                 Console.WriteLine($"ID: {car.Id}");
-                Console.WriteLine($"Car Model: {car.CarModel}");
-                Console.WriteLine($"Car Brand: {car.CarBrand}");
-                Console.WriteLine($"Year Model: {car.YearModel}");
+                Console.WriteLine($"Brand: {car.Brand}");
+                Console.WriteLine($"Model: {car.Model}");
+                Console.WriteLine($"Model Year : {car.ModelYear}");
                 Console.WriteLine($"Mileage: {car.Mileage}");
                 Console.WriteLine($"Description: {car.Description}");
                 Console.WriteLine($"Transmission Type: {car.Transmission}");
@@ -54,9 +54,9 @@ public class CarApiClientOperations
             {
                 var car = await response.Content.ReadAsAsync<Car>();
                 Console.WriteLine($"ID: {car.Id}");
-                Console.WriteLine($"Car Brand: {car.CarBrand}");
-                Console.WriteLine($"Car Model: {car.CarModel}");
-                Console.WriteLine($"Year Model: {car.YearModel}");
+                Console.WriteLine($"Brand: {car.Brand}");
+                Console.WriteLine($"Model: {car.Model}");
+                Console.WriteLine($"Model Year: {car.ModelYear}");
                 Console.WriteLine($"Mileage: {car.Mileage}");
                 Console.WriteLine($"Description: {car.Description}");
                 Console.WriteLine($"Transmission Type: {car.Transmission}");
