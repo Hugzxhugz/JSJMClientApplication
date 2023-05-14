@@ -32,6 +32,7 @@ public class CarApiClientOperations
                 Console.WriteLine($"Description: {car.Description}");
                 Console.WriteLine($"Transmission Type: {car.Transmission}");
                 Console.WriteLine($"Fuel Type: {car.Fuel}");
+                Console.WriteLine($"Listed: {car.Listed}");
                 Console.WriteLine($"Price: {car.Price}");
                 Console.WriteLine();
             }
@@ -61,6 +62,7 @@ public class CarApiClientOperations
                 Console.WriteLine($"Description: {car.Description}");
                 Console.WriteLine($"Transmission Type: {car.Transmission}");
                 Console.WriteLine($"Fuel Type: {car.Fuel}");
+                Console.WriteLine($"Listed: {car.Listed}");
                 Console.WriteLine($"Price: {car.Price}");
                 Console.WriteLine();
             }

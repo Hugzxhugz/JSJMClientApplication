@@ -11,7 +11,11 @@ public class Car
     public string Description { get; set; }
     public TransmissionType Transmission { get; set; }
     public FuelType Fuel { get; set; }
+    
+    public bool Listed { get; set; }
     public int Price { get; set; }
+    
+    
     
 
 }
